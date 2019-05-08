@@ -36,11 +36,11 @@ Install the Microsoft Visual C++ 2015 Redistributable Update 3. This comes with 
 ```
 cd ~
 ```
-2. In terminal run
+2. Enter and Run
 ```
 virtualenv --system-site-packages -p python3 ./venv
 ```
-2. Activate the new virtual environment
+3. Activate the new virtual environment
 ```
 source ./venv/bin/activate  # sh, bash, ksh, or zsh
 ```
@@ -48,3 +48,40 @@ source ./venv/bin/activate  # sh, bash, ksh, or zsh
 _When virtualenv is active, your shell prompt is prefixed with (venv)_
 
 ### Windows
+1. At a command prompt, switch to your home directory. If you're at ```C:\```, then type
+``` cd Users\<username>```
+2. Enter and Run
+```
+virtualenv --system-site-packages -p python3 ./venv
+```
+3. Activate the new virtual environment
+```
+.\venv\Scripts\activate
+```
+
+## Update Virtual Environment:
+
+### MacOS
+1. In terminal:
+```
+pip install --upgrade pip
+```
+
+2. Run ```pip list``` to ensure everything is working correctly
+
+
+### Windows
+1. At a command prompt: 
+```
+pip install --upgrade pip
+```
+2. Run ```pip list``` to ensure everything is working correctly
+
+
+## Exiting the Virtual Environment
+
+### MacOS
+1. In terminal: ```deactivate```
+
+### Windows
+2. At a command prompt: ```deactivate```
