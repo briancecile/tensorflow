@@ -6,9 +6,11 @@
 * virtualenv
 
 ## Installation
-Docker container images: https://hub.docker.com/r/tensorflow/tensorflow/  (optional)
+There are 3 options:
 
-pip installation guide: https://www.tensorflow.org/install/pip
+* Docker container images: https://hub.docker.com/r/tensorflow/tensorflow/  (optional)
+* run Tensorflow in Google's Colaboratory: https://colab.research.google.com/notebooks/welcome.ipynb
+* Install locally using pip: https://www.tensorflow.org/install/pip
 
 ### MacOS
 ```
