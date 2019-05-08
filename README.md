@@ -77,6 +77,15 @@ pip install --upgrade pip
 ```
 2. Run ```pip list``` to ensure everything is working correctly
 
+## Install the TensorFlow pip package
+1. Install the package
+```
+pip install --upgrade tensorflow
+```
+2. Verify the install
+```
+python -c "import tensorflow as tf; tf.enable_eager_execution(); print(tf.reduce_sum(tf.random_normal([1000, 1000])))"
+```
 
 ## Exiting the Virtual Environment
 
