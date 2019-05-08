@@ -2,12 +2,13 @@
 
 ## Requirements
 * Python V3 
-* PIP
+* pip
 * virtualenv
 
 ## Installation
 Docker container images: https://hub.docker.com/r/tensorflow/tensorflow/
-see https://www.tensorflow.org/install/pip
+
+pip installation guide: https://www.tensorflow.org/install/pip
 
 ### MacOS
 ```
