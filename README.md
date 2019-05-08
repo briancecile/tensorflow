@@ -1,5 +1,10 @@
 # Tensorflow
 
+## Requirements
+* Python V3 
+* PIP
+
+
 ## Installation
 
 ### MacOS
@@ -12,3 +17,13 @@ sudo pip3 install -U virtualenv  # system-wide install
 ```
 
 ### Windows
+Install the Microsoft Visual C++ 2015 Redistributable Update 3. This comes with Visual Studio 2015 but can be installed separately:
+
+1. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/ "Visual Studio downloads"),
+2. Select Redistributables and Build Tools,
+3. Download and install the Microsoft Visual C++ 2015 Redistributable Update 3
+4. Make sure long paths are enabled on Windows
+  1. Hit the Windows key, type gpedit.msc and press Enter.
+  2. Navigate to Local Computer Policy > Computer Configuration > Administrative Templates > System > Filesystem.
+  3. Double click the Enable NTFS long paths option and enable it.
+5. Install Python 3 for Windows, select pip as an optional feature.
