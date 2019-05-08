@@ -3,7 +3,7 @@
 ## Requirements
 * Python V3 
 * PIP
-
+* virtualenv
 
 ## Installation
 
@@ -26,4 +26,5 @@ Install the Microsoft Visual C++ 2015 Redistributable Update 3. This comes with 
   1. Hit the Windows key, type gpedit.msc and press Enter.
   2. Navigate to Local Computer Policy > Computer Configuration > Administrative Templates > System > Filesystem.
   3. Double click the Enable NTFS long paths option and enable it.
-5. Install Python 3 for Windows, select pip as an optional feature.
+5. Install Python 3 for Windows, select pip as an optional feature during install.
+6. open a command prompt and run: ```pip3 install -U pip virtualenv```
