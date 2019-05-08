@@ -13,11 +13,27 @@ There are 3 options:
 * Install locally using pip: https://www.tensorflow.org/install/pip
 
 ### MacOS
+1. install homebrew if you don't already have it installed:
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+2. setup your path:
+```
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
+```
+
+3. update homebrew:
+```
 brew update
+```
+
+4. install python 3
+```
 brew install python  # Python 3
+```
+
+5. install virtualenv:
+```
 sudo pip3 install -U virtualenv  # system-wide install
 ```
 
