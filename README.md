@@ -6,6 +6,7 @@
 * virtualenv
 
 ## Installation
+Docker container images: https://hub.docker.com/r/tensorflow/tensorflow/
 see https://www.tensorflow.org/install/pip
 
 ### MacOS
