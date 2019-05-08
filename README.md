@@ -6,6 +6,7 @@
 * virtualenv
 
 ## Installation
+see https://www.tensorflow.org/install/pip
 
 ### MacOS
 ```
