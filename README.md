@@ -82,7 +82,7 @@ pip install --upgrade pip
 ```
 2. Run ```pip list``` to ensure everything is working correctly
 
-## Install the TensorFlow pip package
+## Install the TensorFlow pip CPU package
 1. Install the package
 ```
 pip install --upgrade tensorflow
