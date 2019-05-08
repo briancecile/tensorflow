@@ -28,3 +28,23 @@ Install the Microsoft Visual C++ 2015 Redistributable Update 3. This comes with 
   3. Double click the Enable NTFS long paths option and enable it.
 5. Install Python 3 for Windows, select pip as an optional feature during install.
 6. open a command prompt and run: ```pip3 install -U pip virtualenv```
+
+## Create a Virtual Environment
+
+### MacOS
+1. In terminal switch to your home directory:
+```
+cd ~
+```
+2. In terminal run
+```
+virtualenv --system-site-packages -p python3 ./venv
+```
+2. Activate the new virtual environment
+```
+source ./venv/bin/activate  # sh, bash, ksh, or zsh
+```
+
+_When virtualenv is active, your shell prompt is prefixed with (venv)_
+
+### Windows
