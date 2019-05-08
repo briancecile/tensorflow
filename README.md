@@ -37,6 +37,8 @@ brew install python
 sudo pip3 install -U virtualenv
 ```
 
+_If you run into connection issues here, switch to an open wifi (non-proxied), turn off your proxy, and try again_
+
 ### Windows
 Install the Microsoft Visual C++ 2015 Redistributable Update 3. This comes with Visual Studio 2015 but can be installed separately:
 
