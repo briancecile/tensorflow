@@ -29,12 +29,12 @@ brew update
 
 4. install python 3
 ```
-brew install python  # Python 3
+brew install python
 ```
 
 5. install virtualenv:
 ```
-sudo pip3 install -U virtualenv  # system-wide install
+sudo pip3 install -U virtualenv
 ```
 
 ### Windows
