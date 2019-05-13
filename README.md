@@ -65,7 +65,7 @@ virtualenv --system-site-packages -p python3 ./venv
 ```
 3. Activate the new virtual environment
 ```
-source ./venv/bin/activate  # sh, bash, ksh, or zsh
+source ./venv/bin/activate
 ```
 
 _When virtualenv is active, your shell prompt is prefixed with (venv)_
